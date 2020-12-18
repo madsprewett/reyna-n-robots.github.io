@@ -1,0 +1,65 @@
+/* stylesheet */
+
+/* color palette */
+:root {
+    --yellow: #FFE5B9;
+    --light_blue: #E9EAFF;
+    --medium_blue: #C9CBFF;
+    --dark_blue: #8081A3;
+    --gray: #A6A9B6;
+    --rust: #D68060;
+    --light_rust: #F1AE89;
+}
+
+/* body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/19/17/39/starry-night-1149815_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/23/20/20/wallpaper-1106135__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+body {
+    background-color: var(--light_blue);
+}
+
+#main_header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: var(--rust);
+    margin: 0px;
+    padding: 50px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: var(--medium_blue);
+}
+
+li.page {
+    float: right;
+}
+li.page a {
+    display: block;
+    color: var(--dark_blue);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+li.page a:hover {
+    background-color: var(--yellow);
+    color: var(--gray);
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: medium;
+    margin: 50px;
+    padding: 25px;
+}

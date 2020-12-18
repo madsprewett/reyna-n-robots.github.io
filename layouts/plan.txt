@@ -1,0 +1,17 @@
+Contents -------------------------------------
+- header
+- navigation bar
+    - about me
+    - writing
+    - art
+    - engineering
+    - view source code
+- welcome message
+- featured project
+- contact (footer)
+
+Fonts ----------------------------------------
+sans-sarif
+
+- headings = Montserrat
+- body = Work Sans
