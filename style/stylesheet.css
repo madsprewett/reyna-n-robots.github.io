@@ -1,6 +1,6 @@
 /* stylesheet */
 
-/* color palette */
+/* global variables */
 :root {
     --yellow: #FFE5B9;
     --light_blue: #E9EAFF;
@@ -9,6 +9,8 @@
     --gray: #A6A9B6;
     --rust: #D68060;
     --light_rust: #F1AE89;
+
+    --line_weight: 10px;
 }
 
 /* body {
@@ -24,14 +26,26 @@ body {
     background-color: var(--light_blue);
 }
 
+/* HEADERS ------------------------------------------------------------ */
+
 #main_header {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     color: var(--rust);
     margin: 0px;
     padding: 50px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: var(--dark_blue);
+    padding: 0px 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* NAVBAR ------------------------------------------------------------- */
 #navbar {
     list-style-type: none;
     margin: 0px;
@@ -50,16 +64,53 @@ li.page a {
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
 li.page a:hover {
     background-color: var(--yellow);
     color: var(--gray);
 }
 
+
+/* WELCOME MESSAGE ---------------------------------------------------- */
+#welcome_img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#welcome_header {
+    border: white solid var(--line_weight);
+    border-bottom: none;
+}
+#welcome_message {
+    display: block;
+    border: white solid var(--line_weight);
+    border-top: none;
+}
+
+
+/* BODY PARAGRAPHS ---------------------------------------------------- */
 p {
     font-family: 'Work Sans', sans-serif;
     font-size: medium;
-    margin: 50px;
-    padding: 25px;
+    margin: 0px 50px;
+    padding: 0px 25px;
+    display: block;
+}
+
+
+/* FOOTER ------------------------------------------------------------ */
+footer {
+    background-color: var(--yellow);
+    padding: 35px;
+    margin: 0px;
+}
+
+.fa, .fab{
+    font-size: x-large;
+    margin: 5px;
+    color: var(--dark_blue);
 }
